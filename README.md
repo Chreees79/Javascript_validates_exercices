@@ -16,9 +16,9 @@ tu trouveras ici:
     - un programme qui effectue plusieurs tâches sur un array de bibliothèque 📚
 
     - un programme qui transcrit des ARN en acides aminés, rien que cela! 🤯
-    
+
     - et pour finir, un petit programme sympathique de discussion pour adolescent! 🕺
 
-  `vive le code !`
+                  `vive le code !`
 
-    ################ MERCI À TOI DE TA VISITE ################
+          ################ MERCI À TOI DE TA VISITE ################
