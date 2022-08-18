@@ -1,3 +1,4 @@
+//ARRAY OF INVENTORS ----------------------------------------
 const entrepreneurs = [
   { first: 'Steve', last: 'Jobs', year: 1955 },
   { first: 'Oprah', last: 'Winfrey', year: 1954 },
@@ -18,15 +19,20 @@ const entrepreneurs = [
   { first: 'Marc', last: 'Andreessen', year: 1971 },
   { first: 'Peter', last: 'Thiel', year: 1967 }
 ];
+
+//ANSWER -----------------------------------------------------
 //Filtrer les entrepreneurs qui sont nés dans les années 70
 console.log("Voici les entrepreneurs qui sont nés dans les années 70 :");
 console.log(entrepreneurs.filter(entrepreneur => entrepreneur.year > 1970 && entrepreneur.year < 1980));
+
 //Sortir une array contenant le prénom et le nom des entrepreneurs
 console.log("Voici les prénoms et noms des entrepreneurs :");
 console.log(entrepreneurs.map(entrepreneur => entrepreneur.first + " " + entrepreneur.last));
+
 //Quel âge aurait chaque inventeur aujourd'hui ?
 console.log("Voici l'âge des entrepreneurs aujourd'hui :");
 console.log(entrepreneurs.map(entrepreneur => 2022 - entrepreneur.year));
+
 //Trier les entrepreneurs par ordre alphabétique du nom de famille
 console.log("Voici les entrepreneurs triés par ordre alphabétique du nom de famille :");
 console.log(entrepreneurs.sort((a, b) => a.last > b.last ? 1 : -1));
