@@ -5,6 +5,7 @@ INTRODUCTION EN JAVASCRIPT
 
 Sacré challenge que celui d'aujourd'hui! Apprendre le javascript le matin 📚, et faire ces exercices l'après-midi 🥊 !
 tu trouveras ici:
+
     - un programme qui te dit bonjour 👋
 
     - un programme qui compte pour toi la factorielle du chiffre que tu lui donneras 🤓
