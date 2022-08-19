@@ -40,7 +40,7 @@ function perform(arn){
 
 //FUNCTION FOR CHOICE USER BETWEEN THE DISPLAY OF TWO ARN'S TRANSCRIPTION'S -----------------------------
 function display() {
-  let inputUser = prompt("tapes 1 si tu veux voir la traduction de la 1ère séquence d'ARN, ou 2 si tu veux la seconde 😁")
+  let inputUser = prompt("tapes 1 si tu veux voir la traduction de la 1ère séquence d'ARN, ou 2, ou 3 si tu veux la deuxième et la troisième 😁")
   switch (inputUser){
     case "1":
     console.log("voici l'ARN à traduire: ");
@@ -53,6 +53,12 @@ function display() {
     console.log("CCUCGCCGGUACUUCUCG");
     console.log("et voici leur traduction en acide aminés: 🧪");
     console.log(perform("CCUCGCCGGUACUUCUCG"));
+    break;
+    case "3":
+    console.log("voici l'ARN à traduire: ");
+    console.log("UCCCCCUUGUUCCGCUAC");
+    console.log("et voici leur traduction en acide aminés: 🧪");
+    console.log(perform("UCCCCCUUGUUCCGCUAC"));
     break;
     default:
       console.log("tu n'as pas rentré un nombre valide")
